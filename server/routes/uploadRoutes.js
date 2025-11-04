@@ -1,8 +1,8 @@
 const express = require('express');
 const router = express.Router();
 
-router.post('/submit', (req, res) => {
-  res.json({ message: 'Contact route - coming soon' });
+router.post('/upload', (req, res) => {
+  res.json({ message: 'Upload route - coming soon' });
 });
 
 module.exports = router;
