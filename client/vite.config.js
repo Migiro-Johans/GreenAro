@@ -6,6 +6,13 @@ export default defineConfig({
   plugins: [react()],
   server: {
     port: 3000,
+    host: true,
+    allowedHosts: [
+      'nonenergetically-nonimpregnated-garfield.ngrok-free.dev',
+      'localhost',
+      '.ngrok-free.app',
+      '.ngrok.io'
+    ],
     proxy: {
       '/api': {
 	target: 'http://localhost:5000',
