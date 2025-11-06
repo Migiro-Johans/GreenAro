@@ -23,7 +23,7 @@ export default function Chatbot() {
     if (isOpen && messages.length === 0) {
       setMessages([
         {
-          text: 'Hello! Welcome to Green Arrow. Please provide your details to get started.',
+          text: 'Hello! Welcome to Green Aro. Please provide your details to get started.',
           isBot: true,
           timestamp: new Date(),
         },
@@ -119,7 +119,7 @@ export default function Chatbot() {
         <div className="fixed bottom-6 right-6 w-96 h-[500px] bg-white rounded-lg shadow-2xl flex flex-col z-50">
           {/* Header */}
           <div className="bg-primary text-white p-4 rounded-t-lg flex justify-between items-center">
-            <h3 className="font-semibold">Green Arrow Support</h3>
+            <h3 className="font-semibold">Green Aro Support</h3>
             <button onClick={() => setIsOpen(false)} className="hover:bg-secondary rounded p-1">
               <X className="w-5 h-5" />
             </button>
