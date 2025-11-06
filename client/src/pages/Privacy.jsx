@@ -17,7 +17,7 @@ function Privacy() {
           {/* Introduction */}
           <section>
             <p className="text-gray-700 leading-relaxed">
-              At Green Arrow SACCO, we are committed to protecting your privacy and ensuring 
+              At GreenAro SACCO, we are committed to protecting your privacy and ensuring 
               the security of your personal information. This Privacy Policy explains how we 
               collect, use, disclose, and safeguard your information when you use our services.
             </p>

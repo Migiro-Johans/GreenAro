@@ -24,7 +24,7 @@ function Navbar() {
               <span className="text-white font-bold text-xl">GA</span>
             </div>
             <div className="flex flex-col">
-              <span className="text-xl font-bold text-navy-900 leading-tight">Green Arrow</span>
+              <span className="text-xl font-bold text-navy-900 leading-tight">Green Aro</span>
               <span className="text-xs text-navy-500 uppercase tracking-wide">SACCO</span>
             </div>
           </Link>

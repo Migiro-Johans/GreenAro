@@ -9,7 +9,7 @@ function FAQs() {
   const faqs = [
     {
       category: 'membership',
-      question: 'How do I become a member of Green Arrow SACCO?',
+      question: 'How do I become a member of Green Aro SACCO?',
       answer: 'To become a member, download and complete the membership application form from our Downloads page. Submit it along with a copy of your ID, passport photo, and the minimum share capital. You can submit at any of our branches or upload online.'
     },
     {
@@ -24,7 +24,7 @@ function FAQs() {
     },
     {
       category: 'loans',
-      question: 'What types of loans does Green Arrow offer?',
+      question: 'What types of loans does Green Aro offer?',
       answer: 'We offer Personal Loans, Business Loans, Home Improvement Loans, Education Loans, Emergency Loans, and Asset Financing. Each product has specific terms and conditions tailored to meet different needs.'
     },
     {
@@ -74,7 +74,7 @@ function FAQs() {
     },
     {
       category: 'general',
-      question: 'Is my money safe with Green Arrow?',
+      question: 'Is my money safe with Green Aro?',
       answer: 'Yes, absolutely. We are a licensed and regulated SACCO under the SASRA regulations. We maintain proper governance, regular audits, and comprehensive insurance coverage for member deposits.'
     },
     {
@@ -85,7 +85,7 @@ function FAQs() {
     {
       category: 'general',
       question: 'Do you charge monthly account maintenance fees?',
-      answer: 'No, Green Arrow does not charge monthly maintenance fees for regular savings or loan accounts. We believe in transparent pricing with no hidden charges.'
+      answer: 'No, Green Aro does not charge monthly maintenance fees for regular savings or loan accounts. We believe in transparent pricing with no hidden charges.'
     }
   ];
 
@@ -118,7 +118,7 @@ function FAQs() {
             Frequently Asked Questions
           </h1>
           <p className="text-xl text-gray-600">
-            Find answers to common questions about Green Arrow SACCO services.
+            Find answers to common questions about Green Aro SACCO services.
           </p>
         </div>
 

@@ -202,7 +202,7 @@ function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold text-navy-900 mb-4">
-              Why Choose Green Arrow?
+              Why Choose GreenAro?
             </h2>
             <p className="text-xl text-navy-600 max-w-3xl mx-auto">
               We're committed to providing exceptional financial services that empower 
@@ -234,7 +234,7 @@ function Home() {
             Ready to Get Started?
           </h2>
           <p className="text-xl text-green-50 mb-8 max-w-2xl mx-auto">
-            Join Green Arrow today and take control of your financial future. 
+            Join GreenAro today and take control of your financial future. 
             Our team is ready to help you every step of the way.
           </p>
           <div className="flex flex-wrap justify-center gap-4">

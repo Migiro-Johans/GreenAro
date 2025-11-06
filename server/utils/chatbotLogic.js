@@ -2,7 +2,7 @@
 const chatbotResponses = {
   greeting: {
     keywords: ['hello', 'hi', 'hey', 'good morning', 'good afternoon', 'good evening', 'greetings', 'hola', 'sup'],
-    response: 'Hello! Welcome to Green Arrow SACCO. How can I assist you today? I can help you with:\n• Loan products and applications\n• Savings accounts and deposits\n• Membership registration\n• Office locations and hours\n• General inquiries'
+    response: 'Hello! Welcome to Green Aro SACCO. How can I assist you today? I can help you with:\n• Loan products and applications\n• Savings accounts and deposits\n• Membership registration\n• Office locations and hours\n• General inquiries'
   },
   loans: {
     keywords: ['loan', 'borrow', 'credit', 'financing', 'lend', 'advance', 'debt'],
@@ -18,7 +18,7 @@ const chatbotResponses = {
   },
   savings: {
     keywords: ['savings', 'save', 'deposit', 'account', 'investment', 'dividends'],
-    response: 'Green Arrow offers multiple savings options:\n• Regular Savings Account (up to 10% p.a.)\n• Fixed Deposit Account (up to 12% p.a.)\n• Locked Savings (up to 11% p.a.)\n• Junior Savings Account (up to 9% p.a.)\n\nAll accounts have competitive dividends and flexible terms. Which one interests you?'
+    response: 'Green Aro offers multiple savings options:\n• Regular Savings Account (up to 10% p.a.)\n• Fixed Deposit Account (up to 12% p.a.)\n• Locked Savings (up to 11% p.a.)\n• Junior Savings Account (up to 9% p.a.)\n\nAll accounts have competitive dividends and flexible terms. Which one interests you?'
   },
   membership: {
     keywords: ['member', 'join', 'registration', 'sign up', 'enroll', 'register', 'become member'],
@@ -74,7 +74,7 @@ const chatbotResponses = {
   },
   goodbye: {
     keywords: ['bye', 'goodbye', 'see you', 'later', 'thanks bye'],
-    response: 'Thank you for contacting Green Arrow SACCO! Have a great day! 👋\n\nFeel free to reach out anytime. We\'re here to help!'
+    response: 'Thank you for contacting Green Aro SACCO! Have a great day! 👋\n\nFeel free to reach out anytime. We\'re here to help!'
   }
 };
 

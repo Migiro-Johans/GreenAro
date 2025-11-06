@@ -10,7 +10,7 @@ function Downloads() {
       id: 1,
       category: 'membership',
       title: 'Membership Application Form',
-      description: 'Complete this form to become a member of Green Arrow SACCO',
+      description: 'Complete this form to become a member of Green Aro SACCO',
       size: '245 KB',
       format: 'PDF'
     },
@@ -66,7 +66,7 @@ function Downloads() {
       id: 8,
       category: 'savings',
       title: 'Savings Account Opening Form',
-      description: 'Open a new savings account with Green Arrow',
+      description: 'Open a new savings account with Green Aro',
       size: '210 KB',
       format: 'PDF'
     },
@@ -90,7 +90,7 @@ function Downloads() {
       id: 11,
       category: 'policies',
       title: 'SACCO By-Laws',
-      description: 'Complete Green Arrow SACCO by-laws and regulations',
+      description: 'Complete Green Aro SACCO by-laws and regulations',
       size: '890 KB',
       format: 'PDF'
     },

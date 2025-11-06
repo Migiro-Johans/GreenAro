@@ -59,7 +59,7 @@ function Footer() {
                 <span className="text-white font-bold text-xl">GA</span>
               </div>
               <div className="flex flex-col">
-                <span className="text-xl font-bold">Green Arrow</span>
+                <span className="text-xl font-bold">Green Aro</span>
                 <span className="text-xs text-navy-400 uppercase tracking-wide">SACCO</span>
               </div>
             </div>
@@ -197,7 +197,7 @@ function Footer() {
         {/* Bottom Bar */}
         <div className="border-t border-navy-800 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center text-sm text-navy-400">
-            <p>&copy; {currentYear} Green Arrow SACCO. All rights reserved.</p>
+            <p>&copy; {currentYear} Green Aro SACCO. All rights reserved.</p>
             <div className="flex space-x-6 mt-4 md:mt-0">
               {legal.map((item) => (
                 <Link
