@@ -142,7 +142,7 @@ export default function Contact() {
                 <Mail className="w-6 h-6 text-primary mt-1" />
                 <div>
                   <h3 className="font-semibold text-gray-900">Email</h3>
-                  <p className="text-gray-600">info@greenarrow.co.ke</p>
+                  <p className="text-gray-600">info@greenaro.co.ke</p>
                 </div>
               </div>
             </div>

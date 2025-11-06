@@ -188,7 +188,7 @@ function Footer() {
               </div>
               <div>
                 <p className="font-semibold mb-1 text-white">Email Us</p>
-                <p className="text-navy-300">info@greenarrow.co.ke</p>
+                <p className="text-navy-300">info@greenaro.co.ke</p>
               </div>
             </div>
           </div>

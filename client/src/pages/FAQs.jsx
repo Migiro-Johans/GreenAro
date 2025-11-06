@@ -80,7 +80,7 @@ function FAQs() {
     {
       category: 'general',
       question: 'How do I update my contact information?',
-      answer: 'Visit any of our branches with your ID, or send an email to info@greenarrow.co.ke with your updated information. Changes will be processed within 2 business days.'
+      answer: 'Visit any of our branches with your ID, or send an email to info@greenaro.co.ke with your updated information. Changes will be processed within 2 business days.'
     },
     {
       category: 'general',

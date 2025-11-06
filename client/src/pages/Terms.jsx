@@ -21,7 +21,7 @@ function Terms() {
                 <AlertCircle className="w-5 h-5 text-green-500 flex-shrink-0 mt-0.5" />
                 <p className="text-sm text-green-800">
                   Please read these terms and conditions carefully before using our services. 
-                  By becoming a member or using any Green Arrow SACCO services, you agree to 
+                  By becoming a member or using any Green Aro SACCO services, you agree to 
                   be bound by these terms.
                 </p>
               </div>
@@ -207,11 +207,11 @@ function Terms() {
               <div>
                 <h2 className="text-xl font-bold text-gray-900 mb-3">Acceptance of Terms</h2>
                 <p className="text-gray-700 leading-relaxed mb-3">
-                  By becoming a member of Green Arrow SACCO or using our services, you acknowledge 
+                  By becoming a member of Green Aro SACCO or using our services, you acknowledge 
                   that you have read, understood, and agree to be bound by these terms and conditions.
                 </p>
                 <p className="text-sm text-gray-600">
-                  For questions about these terms, please contact us at <strong>info@greenarrow.co.ke</strong> 
+                  For questions about these terms, please contact us at <strong>info@greenaro.co.ke</strong> 
                   or call <strong>+254 700 000 000</strong>.
                 </p>
               </div>

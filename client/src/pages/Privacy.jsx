@@ -163,7 +163,7 @@ function Privacy() {
               please contact us:
             </p>
             <div className="space-y-2 text-gray-700">
-              <p><strong>Email:</strong> privacy@greenarrow.co.ke</p>
+              <p><strong>Email:</strong> privacy@greenaro.co.ke</p>
               <p><strong>Phone:</strong> +254 700 000 000</p>
               <p><strong>Address:</strong> 123 Financial Street, Nairobi, Kenya</p>
             </div>
