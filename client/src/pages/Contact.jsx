@@ -126,7 +126,7 @@ export default function Contact() {
                 <MapPin className="w-6 h-6 text-primary mt-1" />
                 <div>
                   <h3 className="font-semibold text-gray-900">Office Address</h3>
-                  <p className="text-gray-600">123 Financial Street, Nairobi, Kenya</p>
+                  <p className="text-gray-600">Ndori, Siaya County, Kenya</p>
                 </div>
               </div>
 
@@ -142,15 +142,24 @@ export default function Contact() {
                 <Mail className="w-6 h-6 text-primary mt-1" />
                 <div>
                   <h3 className="font-semibold text-gray-900">Email</h3>
-                  <p className="text-gray-600">info@greenaro.co.ke</p>
+                  <p className="text-gray-600">greenarosacco@yahoo.com</p>
                 </div>
               </div>
             </div>
           </div>
 
-          {/* Map Placeholder */}
-          <div className="bg-gray-200 h-64 rounded-lg flex items-center justify-center">
-            <p className="text-gray-500">Map Integration Here</p>
+          {/* Map */}
+          <div className="bg-gray-200 h-64 rounded-lg overflow-hidden">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63733.89!2d34.5!3d-0.05!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182aaf8b0f0f0f0f%3A0x0!2sNdori%2C%20Siaya%20County%2C%20Kenya!5e0!3m2!1sen!2sus!4v1234567890"
+              width="100%"
+              height="100%"
+              style={{ border: 0 }}
+              allowFullScreen=""
+              loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"
+              title="Green Aro SACCO Location"
+            ></iframe>
           </div>
         </div>
       </div>

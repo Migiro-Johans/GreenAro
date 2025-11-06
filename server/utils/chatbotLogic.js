@@ -26,7 +26,7 @@ const chatbotResponses = {
   },
   contact: {
     keywords: ['contact', 'call', 'email', 'reach', 'office', 'location', 'address', 'branch'],
-    response: '📍 Head Office: 123 Financial Street, Nairobi, Kenya\n📞 Phone: +254 700 000 000\n📧 Email: info@greenaro.co.ke\n\n🕐 Working Hours:\n• Mon-Fri: 8:00 AM - 5:00 PM\n• Saturday: 9:00 AM - 1:00 PM\n\nVisit our Contact page for more details or to send us a message!'
+    response: '📍 Head Office: Ndori, Siaya County, Kenya\n📞 Phone: +254 700 000 000\n📧 Email: greenarosacco@yahoo.com\n\n🕐 Working Hours:\n• Mon-Fri: 8:00 AM - 5:00 PM\n• Saturday: 9:00 AM - 1:00 PM\n\nVisit our Contact page for more details or to send us a message!'
   },
   hours: {
     keywords: ['hours', 'open', 'close', 'time', 'working', 'schedule', 'when'],

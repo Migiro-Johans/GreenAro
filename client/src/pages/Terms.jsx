@@ -211,7 +211,7 @@ function Terms() {
                   that you have read, understood, and agree to be bound by these terms and conditions.
                 </p>
                 <p className="text-sm text-gray-600">
-                  For questions about these terms, please contact us at <strong>info@greenaro.co.ke</strong> 
+                  For questions about these terms, please contact us at <strong>greenarosacco@yahoo.com</strong> 
                   or call <strong>+254 700 000 000</strong>.
                 </p>
               </div>

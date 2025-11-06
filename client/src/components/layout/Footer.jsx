@@ -170,7 +170,7 @@ function Footer() {
               </div>
               <div>
                 <p className="font-semibold mb-1 text-white">Head Office</p>
-                <p className="text-navy-300 leading-relaxed">123 Financial Street, Nairobi, Kenya</p>
+                <p className="text-navy-300 leading-relaxed">Ndori, Siaya County, Kenya</p>
               </div>
             </div>
             <div className="flex items-start space-x-4">
@@ -188,7 +188,7 @@ function Footer() {
               </div>
               <div>
                 <p className="font-semibold mb-1 text-white">Email Us</p>
-                <p className="text-navy-300">info@greenaro.co.ke</p>
+                <p className="text-navy-300">greenarosacco@yahoo.com</p>
               </div>
             </div>
           </div>
