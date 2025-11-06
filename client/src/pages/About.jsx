@@ -25,7 +25,7 @@ function About() {
   ];
 
   const milestones = [
-    { year: "2010", event: "Green Arrow SACCO founded with 100 members" },
+    { year: "2010", event: "Green Aro SACCO founded with 100 members" },
     { year: "2013", event: "Reached 1,000 members milestone" },
     { year: "2016", event: "Launched digital banking platform" },
     { year: "2019", event: "Opened 3 additional branch offices" },
@@ -35,22 +35,22 @@ function About() {
 
   const team = [
     {
-      name: "John Kamau",
+      name: "John Doe",
       position: "Chief Executive Officer",
       description: "20+ years in financial services"
     },
     {
-      name: "Jane Wanjiku",
+      name: "Jane Smith",
       position: "Head of Operations",
       description: "Expert in SACCO management"
     },
     {
-      name: "David Omondi",
+      name: "David Johnson",
       position: "Head of Credit",
       description: "15 years in credit management"
     },
     {
-      name: "Grace Akinyi",
+      name: "Sarah Williams",
       position: "Customer Relations Manager",
       description: "Dedicated to member satisfaction"
     }
@@ -61,7 +61,7 @@ function About() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header */}
         <div className="text-center mb-16">
-          <h1 className="text-4xl font-bold text-gray-900 mb-4">About Green Arrow</h1>
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">About Green Aro</h1>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
             Building financial futures together since 2010. We are more than a SACCO – 
             we are a community committed to your financial success.
@@ -73,7 +73,7 @@ function About() {
           <div className="bg-gradient-to-r from-green-50 to-green-100 rounded-2xl p-8 md:p-12">
             <h2 className="text-3xl font-bold text-gray-900 mb-6">Who We Are</h2>
             <p className="text-lg text-gray-700 mb-4">
-              Green Arrow SACCO is a member-owned financial cooperative dedicated to 
+              Green Aro SACCO is a member-owned financial cooperative dedicated to 
               providing accessible, affordable, and reliable financial services to our community. 
               Since our establishment in 2010, we have grown from a small group of 100 founding 
               members to a thriving cooperative serving over 10,000 members across Kenya.
@@ -175,7 +175,7 @@ function About() {
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold text-gray-900 mb-4">Our Leadership Team</h2>
             <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-              Meet the dedicated professionals driving Green Arrow's success.
+              Meet the dedicated professionals driving Green Aro's success.
             </p>
           </div>
 
@@ -205,7 +205,7 @@ function About() {
             Join Our Growing Community
           </h2>
           <p className="text-lg text-green-50 mb-6 max-w-2xl mx-auto">
-            Become part of the Green Arrow family and experience the difference of a 
+            Become part of the Green Aro family and experience the difference of a 
             member-focused financial cooperative.
           </p>
           <a
