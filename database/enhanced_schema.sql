@@ -1,8 +1,8 @@
 -- Enhanced Database Schema for Green Aro SACCO
 -- Date: November 6, 2025
 
-CREATE DATABASE IF NOT EXISTS green_aro_sacco;
-USE green_aro_sacco;
+CREATE DATABASE IF NOT EXISTS green_arrow_db;
+USE green_arrow_db;
 
 -- ========================================
 -- 1. APPLICATIONS TABLE (Loans & Savings)

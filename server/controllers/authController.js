@@ -124,20 +124,24 @@ exports.login = async (req, res, next) => {
 
     // Log activity
     await pool.execute(
-      'INSERT INTO activity_logs (admin_id, action, description) VALUES (?, ?, ?)',
+      'INSERT INTO activity_logs (user_id, action, description) VALUES (?, ?, ?)',
       [user.id, 'login', `User ${user.username} logged in`]
     );
 
-    res.json(successResponse({
-      token,
-      user: {
-        id: user.id,
-        username: user.username,
-        email: user.email,
-        full_name: user.full_name,
-        role: user.role
+    res.json({
+      success: true,
+      message: 'Login successful',
+      data: {
+        token,
+        user: {
+          id: user.id,
+          username: user.username,
+          email: user.email,
+          full_name: user.full_name,
+          role: user.role
+        }
       }
-    }, 'Login successful'));
+    });
 
   } catch (error) {
     logger.error(`Admin login error: ${error.message}`);
