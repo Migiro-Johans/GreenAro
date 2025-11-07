@@ -1,0 +1,13 @@
+# Enable Node.js application
+PassengerEnabled on
+PassengerAppType node
+PassengerStartupFile server.js
+PassengerAppRoot /home/ilimatit/greenaro.ilimat-it.com/server
+
+# Set Node.js version (adjust if needed)
+PassengerNodejs /usr/bin/node
+
+# Redirect to HTTPS (optional but recommended)
+RewriteEngine On
+RewriteCond %{HTTPS} off
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]

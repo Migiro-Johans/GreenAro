@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import axios from 'axios';
 import { Lock, User, AlertCircle, Eye, EyeOff } from 'lucide-react';
+import { API_BASE_URL } from '../config';
 
 const AdminLogin = () => {
   const navigate = useNavigate();
@@ -27,7 +28,7 @@ const AdminLogin = () => {
     setLoading(true);
 
     try {
-      const response = await axios.post('http://localhost:5000/api/auth/login', formData);
+      const response = await axios.post(`${API_BASE_URL}/auth/login`, formData);
       
       if (response.data.success) {
         // Store token and user data

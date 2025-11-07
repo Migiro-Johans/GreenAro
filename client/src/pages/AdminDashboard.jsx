@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import axios from 'axios';
+import { API_BASE_URL } from '../config';
 import {
   Users,
   FileText,
@@ -40,22 +41,22 @@ const AdminDashboard = () => {
   const fetchStats = async (token) => {
     try {
       // Fetch application stats
-      const appStats = await axios.get('http://localhost:5000/api/applications/stats', {
+      const appStats = await axios.get(`${API_BASE_URL}/applications/stats`, {
         headers: { Authorization: `Bearer ${token}` }
       });
 
       // Fetch contact stats
-      const contactStats = await axios.get('http://localhost:5000/api/contact/stats', {
+      const contactStats = await axios.get(`${API_BASE_URL}/contact/stats`, {
         headers: { Authorization: `Bearer ${token}` }
       });
 
       // Fetch chat stats
-      const chatStats = await axios.get('http://localhost:5000/api/chat/stats', {
+      const chatStats = await axios.get(`${API_BASE_URL}/chat/stats`, {
         headers: { Authorization: `Bearer ${token}` }
       });
 
       // Fetch newsletter stats
-      const newsletterStats = await axios.get('http://localhost:5000/api/newsletter/stats', {
+      const newsletterStats = await axios.get(`${API_BASE_URL}/newsletter/stats`, {
         headers: { Authorization: `Bearer ${token}` }
       });
 
